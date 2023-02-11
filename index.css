@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Work+Sans:wght@200;300;400;500;600&display=swap");
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url(./Assets/Background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Work Sans;
+}
+
+section {
+  background-color: white;
+  width: 27rem;
+  border-radius: 10px;
+}
+
+.upper {
+  position: relative;
+  color: white;
+  background-color: rgba(35, 85, 242, 255);
+  border-radius: 10px 10px 0 0;
+}
+
+.header {
+  float: left;
+  position: absolute;
+  left: 24%;
+  top: 35%;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.637);
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0rem 1rem 2rem;
+}
+
+input {
+  height: 2.2rem;
+  width: 15rem;
+  border: solid rgba(71, 59, 180, 0.178) 0.5px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: rgba(149, 144, 189, 0.521);
+  padding: 1rem;
+  font-weight: 600;
+}
+
+button {
+  background-color: rgba(35, 85, 242, 255);
+  color: white;
+  height: 2.2rem;
+  width: 7rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.spam {
+  margin: 0 0 0 2rem;
+  color: rgba(0, 0, 0, 0.377);
+  font-weight: 500;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 1rem;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.job {
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 0.5rem 0 1.5rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.548);
+}
